@@ -1,4 +1,4 @@
-title: "Blog Title"
+title: "ISET-DA Tech Blog"
 author: "Blog Author"
 description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
 permalink: /:title/
@@ -20,9 +20,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "README.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Mail, icon: envelope, url: "mailto:yoojchul@iset-da.com"}
 
 comments:
 #  disqus_shortname: ""    # see ht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tps://disqus.com/

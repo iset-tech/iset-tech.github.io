@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-01-07T22:11:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ISET-DA Tech Blog</title><subtitle>Made with &lt;b style=&quot;color: #f45;&quot;&gt;&amp;lt;3&lt;/b&gt;</subtitle><author><name>Blog Author</name></author><entry><title type="html">HPE VM Essential 설치</title><link href="http://localhost:4000/HPE_VM/" rel="alternate" type="text/html" title="HPE VM Essential 설치" /><published>2025-01-07T00:00:00+09:00</published><updated>2025-01-07T00:00:00+09:00</updated><id>http://localhost:4000/HPE_VM</id><content type="html" xml:base="http://localhost:4000/HPE_VM/"><![CDATA[<h4 id="1-kvm-host-준비">1)	KVM host 준비</h4>
+<!DOCTYPE html>
+<html lang="en">
+<title>HPE VM Essential 설치 | ISET-DA Tech Blog</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Blog Author">
+<meta name="generator" content="Jekyll v4.2.2">
+<link rel="canonical" href="http://localhost:4000/HPE_VM/">
+
+<link rel="stylesheet" href="/assets/css/frame.css">
+
+<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="ISET-DA Tech Blog">
+
+
+
+
+
+
+
+<header>
+  <a href="/" class="title">ISET-DA Tech Blog</a>
+  <nav><a href="/" >Home</a><a href="/about/" >About us</a></nav>
+
+</header>
+
+<article>
+  <header>
+  <h1><a href="/HPE_VM/">HPE VM Essential 설치</a></h1><time datetime="2025-01-07T00:00:00+09:00">January 07, 2025</time>
+</header>
+
+  <h4 id="1-kvm-host-준비">1)	KVM host 준비</h4>
 
 <p>https://myenterpriselicense.hpe.com/ 에서 ISO image와 임시 license를 다운로드 받습니다.   이 자료는 HPE_VM_Essentials_SW_image_v8.0.1.1_S5Q83-11001.iso 버전 기준입니다.  ISO 파일을 mount 하면</p>
 
@@ -117,4 +147,19 @@ bridges:
 
 <p>완성된 인스턴스는 인프라-&gt;컴퓨트-&gt;가상머신 탭에서 확인할 수 있습니다. 혹시 생성 과정에 문제가 있는 경우는 해당 인스턴스의 이력 탭에서 에러 내용을 볼 수 있습니다.</p>
 
-<p><img src="/assets/figs/240107_fig10.png" alt="Image Alt fig1" /></p>]]></content><author><name>Blog Author</name></author><summary type="html"><![CDATA[1) KVM host 준비 https://myenterpriselicense.hpe.com/ 에서 ISO image와 임시 license를 다운로드 받습니다. 이 자료는 HPE_VM_Essentials_SW_image_v8.0.1.1_S5Q83-11001.iso 버전 기준입니다. ISO 파일을 mount 하면 # mount -o loop /root/HPE_VM_Essentials_SW_image_v8.0.1.1_S5Q83-11001.iso /mnt 핵심이 되는 두개의 파일이 있습니다. hpe-vm_1.0.2-1_amd64.deb hpe-vme-8.0.1-1.qcow2.gz]]></summary></entry></feed>
+<p><img src="/assets/figs/240107_fig10.png" alt="Image Alt fig1" /></p>
+
+
+  
+</article>
+
+
+
+<footer>
+  <div>Made with <b style="color: #f45;">&lt;3</b></div>
+  <nav><a href="mailto:yoojchul@iset-da.com" ><svg aria-label="Mail" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#envelope"></use></svg></a></nav>
+
+</footer>
+
+
+</html>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Home | Blog Title</title>
+<title>Home | ISET-DA Tech Blog</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="Blog Author">
@@ -9,7 +9,7 @@
 
 <link rel="stylesheet" href="/assets/css/frame.css">
 
-<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Blog Title">
+<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="ISET-DA Tech Blog">
 
 
 
@@ -18,8 +18,8 @@
 
 
 <header>
-  <a href="/" class="title">Blog Title</a>
-  <nav><a href="/" class="selected">Home</a><a href="/about/" >About</a></nav>
+  <a href="/" class="title">ISET-DA Tech Blog</a>
+  <nav><a href="/" class="selected">Home</a><a href="/about/" >About us</a></nav>
 
 </header>
 
@@ -27,34 +27,22 @@
   
   <article>
     <header>
-  <h1><a href="/welcome-to-jekyll/">Welcome to Jekyll</a></h1><time datetime="2017-03-01T00:00:00+09:00">March 01, 2017</time>
+  <h1><a href="/HPE_VM/">HPE VM Essential 설치</a></h1><time datetime="2025-01-07T00:00:00+09:00">January 07, 2025</time>
 </header>
 
-    <p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+    <h4 id="1-kvm-host-준비">1)	KVM host 준비</h4>
 
-    <div class="more"><a href="/welcome-to-jekyll/">read more</a></div>
-  </article>
+<p>https://myenterpriselicense.hpe.com/ 에서 ISO image와 임시 license를 다운로드 받습니다.   이 자료는 HPE_VM_Essentials_SW_image_v8.0.1.1_S5Q83-11001.iso 버전 기준입니다.  ISO 파일을 mount 하면</p>
 
-  <article>
-    <header>
-  <h1><a href="/markdown-examples/">Markdown examples</a></h1><time datetime="2017-02-01T00:00:00+09:00">February 01, 2017</time>
-</header>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># mount -o loop /root/HPE_VM_Essentials_SW_image_v8.0.1.1_S5Q83-11001.iso /mnt
+</code></pre></div></div>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p>핵심이 되는 두개의 파일이 있습니다.</p>
 
-<p>Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit.</p>
+<p>hpe-vm_1.0.2-1_amd64.deb<br />
+hpe-vme-8.0.1-1.qcow2.gz</p>
 
-    <div class="more"><a href="/markdown-examples/">read more</a></div>
-  </article>
-
-  <article>
-    <header>
-  <h1><a href="/advanced-examples/">Advanced examples</a></h1><time datetime="2017-01-01T00:00:00+09:00">January 01, 2017</time>
-</header>
-
-    <p><img src="https://user-images.githubusercontent.com/4943215/55412536-edbba180-5567-11e9-9c70-6d33bca3f8ed.jpg" alt="Swiss Alps" /></p>
-
-    <div class="more"><a href="/advanced-examples/">read more</a></div>
+    <div class="more"><a href="/HPE_VM/">read more</a></div>
   </article>
 
 
@@ -66,7 +54,7 @@
 
 <footer>
   <div>Made with <b style="color: #f45;">&lt;3</b></div>
-  <nav><a href="mailto:niklasbuschmann@users.noreply.github.com" ><svg aria-label="Mail" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#envelope"></use></svg></a><a href="https://github.com/niklasbuschmann/contrast" ><svg aria-label="Github" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#github"></use></svg></a><a href="/feed.xml" ><svg aria-label="Subscribe" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#rss"></use></svg></a></nav>
+  <nav><a href="mailto:yoojchul@iset-da.com" ><svg aria-label="Mail" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#envelope"></use></svg></a></nav>
 
 </footer>
 
