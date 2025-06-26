@@ -1,0 +1,9 @@
+I"<h4 id="1-kvm-host-준비">1)	KVM host 준비</h4>
+
+<p>https://myenterpriselicense.hpe.com/ 에서 ISO image와 임시 license를 다운로드 받습니다.   이 자료는 HPE_VM_Essentials_SW_image_8.0.6_S5Q83-11015.iso 버전 기준입니다.  ISO 파일을 mount 하면</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># mount -o loop /root/HPE_VM_Essentials_SW_image_8.0.6_S5Q83-11015.iso /mnt
+</code></pre></div></div>
+
+<p>핵심이 되는 두개의 파일이 있습니다.</p>
+:ET
